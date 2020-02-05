@@ -67,6 +67,7 @@ class User extends \MyApp\Model {
       ]);
       break;
     }
+
     $stmt = $this->db->prepare("SELECT * FROM users WHERE id = :id");
     $stmt->execute([
       ':id' => $values['id']

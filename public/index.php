@@ -78,9 +78,9 @@ $app->run();
           </p>
 
           <div id="alpha">
-            <div id="register" class="fs12 hover">この点数を登録</div>
+            <div id="register" class="fs12 hover">この点数を登録する</div>
             <div id="share" class="fs12 hover">
-              <a id="share-a" href="" target="_blank"><i class="fab fa-twitter"></i>シェア</a>
+              <a id="share-a" href="" target="_blank"><i class="fab fa-twitter"></i>Twitterでシェア</a>
             </div>
             <form id="addrank" method="post">
               <input id="hiddenscore" style="display:none" type="text" name="score" value="">

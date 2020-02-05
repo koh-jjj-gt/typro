@@ -77,8 +77,8 @@ $app->run();
           </p>
 
           <div id="alpha">
-            <div id="fake-register" class="fs12 hover">この点数を登録</div>
-            <div id="fake-share" class="fs12 hover"><i class="fab fa-twitter"></i>シェア</div>
+            <div id="fake-register" class="fs12 hover">この点数を登録する</div>
+            <div id="fake-share" class="fs12 hover"><i class="fab fa-twitter"></i>Twitterでシェア</div>
             <div id="fake-mask" style="display:none">
               ログインが必要です
             </div>
