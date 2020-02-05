@@ -3,7 +3,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "ヒラギノ明朝 W3", "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+/*   font-family: "ヒラギノ明朝 W3", "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO"; */
+  font-family: Verdana;
   user-select: none;
   overflow: scroll;
   background: rgb(250, 250, 250);
