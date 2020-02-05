@@ -192,7 +192,7 @@ $(function() {
 
   var which = 0;
   var whichType = '';
-  const theNumOfQs = 1;
+  const theNumOfQs = 10;
 
   function displayGame() {
     totalChars = 0;
@@ -439,24 +439,44 @@ $(function() {
   });
 
   $('#html-btn').on('click', () => {
-    $('.select-btn').removeClass('selected');
-    $('#html-btn').addClass('selected');
-    which = 0;
+    if ($('#html-btn').hasClass('selected')) {
+      return;
+    } else {
+      $('.select-btn').removeClass('selected');
+      $('#html-btn').addClass('selected');
+      which = 0;
+      displayGame();
+    }
   });
   $('#css-btn').on('click', () => {
-    $('.select-btn').removeClass('selected');
-    $('#css-btn').addClass('selected');
-    which = 1;
+    if ($('#css-btn').hasClass('selected')) {
+      return;
+    } else {
+      $('.select-btn').removeClass('selected');
+      $('#css-btn').addClass('selected');
+      which = 1;
+      displayGame();
+    }
   });
   $('#js-btn').on('click', () => {
-    $('.select-btn').removeClass('selected');
-    $('#js-btn').addClass('selected');
-    which = 2;
+    if ($('#js-btn').hasClass('selected')) {
+      return;
+    } else {
+      $('.select-btn').removeClass('selected');
+      $('#js-btn').addClass('selected');
+      which = 2;
+      displayGame();
+    }
   });
   $('#php-btn').on('click', () => {
-    $('.select-btn').removeClass('selected');
-    $('#php-btn').addClass('selected');
-    which = 3;
+    if ($('#php-btn').hasClass('selected')) {
+      return;
+    } else {
+      $('.select-btn').removeClass('selected');
+      $('#php-btn').addClass('selected');
+      which = 3;
+      displayGame();
+    }
   });
 
   $('#register').on('click', () => {
