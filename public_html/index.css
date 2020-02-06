@@ -231,7 +231,7 @@ header li:hover {
 /* modal named close */
 #close p {
   margin: 5px 20px;
-  font-family: monospace;
+  font-family: Osaka-mono, "Osaka-等幅", "ＭＳ ゴシック", monospace;
 }
 #close p:last-of-type {
   font-family: Verdana, sans-serif;
@@ -355,7 +355,7 @@ header li:hover {
   border: 2px solid #aaa;
   border-radius: 50%;
   line-height: 20px;
-  font-family: monospace;
+  font-family: Osaka-mono, "Osaka-等幅", "ＭＳ ゴシック", monospace;
   font-size: 20px;
   font-weight: bold;
   transition: .2s;

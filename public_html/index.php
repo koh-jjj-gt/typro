@@ -3,7 +3,6 @@ require_once(__DIR__ . '/../config/config.php');
 require_once(__DIR__ . '/../lib/Controller.php');
 $app = new MyApp\Controller\Index();
 $app->run();
-var_dump($_SESSION['me']);
 ?>
 
 <!DOCTYPE html>
