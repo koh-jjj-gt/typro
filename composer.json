@@ -6,5 +6,7 @@
             "email": "docomo.gg.712@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "~7.3.9"
+    }
 }
