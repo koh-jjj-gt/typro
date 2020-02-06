@@ -180,7 +180,7 @@ $arrayOfSessionMe = (array)$_SESSION['me'];
     <a href="/profile.php" id="a" style="display:none;"></a>
 
     <footer>
-      <p>(c) typrogame.com</p>
+      <p>typrogame</p>
     </footer>
 
   </div>

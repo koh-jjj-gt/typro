@@ -140,7 +140,7 @@ $app->run();
     </div>
 
     <footer>
-      <p>(c) typrogame.com</p>
+      <p>typrogame</p>
     </footer>
 
   </div>
