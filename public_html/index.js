@@ -192,7 +192,7 @@ $(function() {
 
   var which = 0;
   var whichType = '';
-  const theNumOfQs = 10;
+  const theNumOfQs = 20;
 
   function displayGame() {
     totalChars = 0;
