@@ -86,9 +86,9 @@ class Signup extends \MyApp\Controller {
       throw new \MyApp\Exception\InvalidUsername();
     }
 
-    if (mb_strlen($_POST['username'], 'UTF-8') > 20) {
-      throw new \MyApp\Exception\ExceedCharsUsername();
-    }
+//     if (mb_strlen($_POST['username'], 'UTF-8') > 20) {
+//       throw new \MyApp\Exception\ExceedCharsUsername();
+//     }
 
     if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
       throw new \MyApp\Exception\InvalidEmail();
