@@ -86,9 +86,9 @@ class Profile extends \MyApp\Controller {
   }
 
   private function _validateUsername() {
-    if (mb_strlen($_POST['new-username'], 'UTF-8') > 20) {
-      throw new \MyApp\Exception\ExceedCharsUsername();
-    }
+//     if (mb_strlen($_POST['new-username'], 'UTF-8') > 20) {
+//       throw new \MyApp\Exception\ExceedCharsUsername();
+//     }
     if ($_POST['new-username'] === '') {
       throw new \MyApp\Exception\EmptyPost();
     }
