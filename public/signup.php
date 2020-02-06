@@ -33,7 +33,7 @@ $app->run();
 
       <div class="btn" onclick="document.getElementById('signup').submit();">登 録</div>
       <p class="fs12"><a href="/login.php">ログインはこちら</a></p>
-      <p class="fs12"><a href="/indexnolog.php">ログインせずに遊ぶ方はこちら</a></p>
+      <p class="fs12"><a href="/index_notLoggedIn.php">ログインせずに遊ぶ方はこちら</a></p>
       <input type="hidden" name="token" value="<?= h($_SESSION['token']); ?>">
     </form>
   </div>

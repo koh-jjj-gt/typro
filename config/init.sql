@@ -2,7 +2,7 @@ drop database if exists typrogame_php;
 
 create database typrogame_php;
 
-grant all on typrogame_php.* to dbuser@localhost identified by 'jfa683BjI';
+-- grant all on typrogame_php.* to dbuser@localhost identified by 'jfa683BjI';
 
 use typrogame_php;
 

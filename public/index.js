@@ -342,7 +342,7 @@ $(function() {
     $('#hiddenscore').attr('value', $('#score').text());
     $('#hiddenwhich').attr('value', which);
     $('#key').text((1000 * (totalChars + theNumOfQs) / elapsedTime).toFixed(1));
-    $('#share-a').attr('href', `http://twitter.com/share?url=http://192.168.33.10:8000&text=今回のTyProGameの結果は${whichType}で${$('#score').text()}点でした！&hashtags=typrogame`);
+    $('#share-a').attr('href', `http://twitter.com/share?url=http://http://typro.herokuapp.com&text=今回のTyProGameの結果は${whichType}で${$('#score').text()}点でした！&hashtags=typrogame`);
 
     switch (which) {
       case 0:

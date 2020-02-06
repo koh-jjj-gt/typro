@@ -29,7 +29,7 @@ $app->run();
       <p class="err"><?= h($app->getErrors('login')); ?></p>
       <div class="btn" onclick="document.getElementById('login').submit();">ログイン</div>
       <p class="fs12"><a href="/signup.php">新規登録はこちら</a></p>
-      <p class="fs12"><a href="/indexnolog.php">ログインせずに遊ぶ方はこちら</a></p>
+      <p class="fs12"><a href="/index_notLoggedIn.php">ログインせずに遊ぶ方はこちら</a></p>
       <input type="hidden" name="token" value="<?= h($_SESSION['token']); ?>">
     </form>
   </div>
