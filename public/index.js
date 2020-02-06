@@ -118,7 +118,7 @@ $(function() {
     'select',
     'addEventListener',
     'preventDefault',
-    'console.log()',
+    'console.log',
   ];
   const phpWords = [
     '$this',
@@ -137,9 +137,9 @@ $(function() {
     'prepare',
     'extends',
     'isset',
-    '$_GET[]',
-    '$_POST[]',
-    '$_SERVER[]',
+    '$_GET',
+    '$_POST',
+    '$_SERVER',
     'header',
     'location',
     'exit',
@@ -300,6 +300,7 @@ $(function() {
     $('#open').fadeOut(200);
     $('.example').text('****');
     $('.answer').text('****');
+    $('#count-wrapper').show();
     $('#count3').show().fadeOut(1000);
     time2Id = setTimeout(function() {
       $('#count2').show().fadeOut(1000);
@@ -310,6 +311,7 @@ $(function() {
 
     timeMaskId = setTimeout(function() {
       $('#mask').fadeOut(200);
+      $('#count-wrapper').fadeOut(200);
       displayGame();
       $('.answer:eq(0)')
       .prop('readonly', false)
@@ -440,7 +442,7 @@ $(function() {
 
   $('#html-btn').on('click', () => {
     if ($('#html-btn').hasClass('selected')) {
-      return;
+      return false;
     } else {
       $('.select-btn').removeClass('selected');
       $('#html-btn').addClass('selected');
@@ -450,7 +452,7 @@ $(function() {
   });
   $('#css-btn').on('click', () => {
     if ($('#css-btn').hasClass('selected')) {
-      return;
+      return false;
     } else {
       $('.select-btn').removeClass('selected');
       $('#css-btn').addClass('selected');
@@ -460,7 +462,7 @@ $(function() {
   });
   $('#js-btn').on('click', () => {
     if ($('#js-btn').hasClass('selected')) {
-      return;
+      return false;
     } else {
       $('.select-btn').removeClass('selected');
       $('#js-btn').addClass('selected');
@@ -470,7 +472,7 @@ $(function() {
   });
   $('#php-btn').on('click', () => {
     if ($('#php-btn').hasClass('selected')) {
-      return;
+      return false;
     } else {
       $('.select-btn').removeClass('selected');
       $('#php-btn').addClass('selected');
