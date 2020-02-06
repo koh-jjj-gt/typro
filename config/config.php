@@ -7,12 +7,12 @@ define('DB_USERNAME', 'bb06f54de49788');
 define('DB_PASSWORD', 'a5407c5b');
 
 
-// $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
-// $db['dbname'] = ltrim($db['path'], '/');
-// $dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
-// $db = new PDO($dsn, $db['user'], $db['pass']);
-// $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-// $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
+$db['dbname'] = ltrim($db['path'], '/');
+$dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
+$db = new PDO($dsn, $db['user'], $db['pass']);
+$db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 
 
