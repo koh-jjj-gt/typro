@@ -231,7 +231,7 @@ header li:hover {
 /* modal named close */
 #close p {
   margin: 5px 20px;
-  font-family: Osaka-mono, "Osaka-等幅", "ＭＳ ゴシック", monospace;
+  font-family: monospace;
 }
 #close p:last-of-type {
   font-family: Verdana, sans-serif;
@@ -355,7 +355,7 @@ header li:hover {
   border: 2px solid #aaa;
   border-radius: 50%;
   line-height: 20px;
-  font-family: Osaka-mono, "Osaka-等幅", "ＭＳ ゴシック", monospace;
+  font-family: monospace;
   font-size: 20px;
   font-weight: bold;
   transition: .2s;
@@ -426,14 +426,14 @@ header li:hover {
   margin: 0;
   width: 600px;
   user-select: none;
-  font-family: "Ricty Diminished";
+  font-family: "Ricty Diminished", Osaka-mono, "Osaka-等幅", "ＭＳ ゴシック", monospace;
   font-size: 20px;
 }
 #play tr {
   line-height: 50px;
 }
 textarea.answer {
-  font-family: "Ricty Diminished";
+  font-family: "Ricty Diminished", Osaka-mono, "Osaka-等幅", "ＭＳ ゴシック", monospace;
   background: #eee;
   color: #000;
   border-style: none;
