@@ -18,7 +18,7 @@ class Model {
     try {
         $this->db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
         $this->db['dbname'] = ltrim($this->db['path'], '/');
-        $this->dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
+        $this->dsn = "mysql:host={$this->db['host']};dbname={$this->db['dbname']};charset=utf8";
         $this->db = new \PDO($this->dsn, $this->db['user'], $this->db['pass']);
         $this->db->setAttribute(\PDO::ATTR_EMULATE_PREPARES, false);
         $this->db->setAttribute(\PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
